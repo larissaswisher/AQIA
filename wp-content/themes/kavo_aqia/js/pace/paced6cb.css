@@ -1,0 +1,109 @@
+/*
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+
+
+  -webkit-transform: translate3d(0, -50px, 0);
+  -ms-transform: translate3d(0, -50px, 0);
+  transform: translate3d(0, -50px, 0);
+
+  -webkit-transition: -webkit-transform .5s ease-out;
+  -ms-transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+}
+
+.pace.pace-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.pace .pace-progress {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  width: 100%;
+  right: 100%;
+  margin-right: 0;
+  height: 1080px;
+  background: #56A1CF;
+
+  pointer-events: none;
+}
+*/
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 50%;
+  height: 1080px;
+  width: 400px;
+  margin-left: -200px;
+  background: #FFF;
+  border: 0;
+
+  overflow: hidden;
+}
+
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  max-width: 400px;
+  position: fixed;
+  z-index: 2000;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: #56A1CF;
+}
+
+.pace.pace-inactive {
+  display: none;
+}
+
+.pace-activity{
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background:url('../../images/home/loading.png') no-repeat center center transparent;
+  background-size: cover;
+  z-index: 3000;
+}
