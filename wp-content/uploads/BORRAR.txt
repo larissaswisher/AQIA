@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.kavoaqia.com	TRUE	/	FALSE	1999999999	PHPSESSID	a62qkuijbmiv3het499dhsk674
+www.kavoaqia.com	TRUE	/	FALSE	1999999999	_icl_current_language	es
+
